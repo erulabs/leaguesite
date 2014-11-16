@@ -4,7 +4,7 @@
   </head>
   <body>
   	<header>
-  		Welcome to the LeagueSite - production
+  		Welcome to the LeagueSite
   	</header>
   	<section id="nameInput">
   		<form method="post" action="index.php">
