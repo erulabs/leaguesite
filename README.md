@@ -5,20 +5,25 @@ A League site by the MumbleSchool!
 
 How to develop on windows!
 =======
+Read: http://docs.docker.com/installation/windows/
 Install boot2docker for windows
 
 In Git Shell:
 
 To start and connect to the Docker manager:
 
-    boot2docker.exe up
+    boot2docker up
 
-    boot2docker.exe ssh
+    boot2docker ssh
 
 
 To Remember the IP of the docker server:
 
-    boot2docker.exe ip
+    boot2docker ip
+
+You'll want to follow the instructions here: http://www.incrediblemolk.com/sharing-a-windows-folder-with-the-boot2docker-vm/
+The most important steps being replacing the docker.iso and running the "VBoxManage" command
+
 
 
 Once you're connected - you can use docker normally - to start the app:
@@ -29,7 +34,7 @@ Once you're connected - you can use docker normally - to start the app:
 
 You'll need to built the image "leaguesite" at least once, but the error from above will tell you that. To build the image, just:
 
-   docker build -t leaguesite .
+    docker build -t leaguesite .
 
 Then run the "docker run" above - Make sure to connect the proper path (User/Documents...) so that docker can read your local files!
 
