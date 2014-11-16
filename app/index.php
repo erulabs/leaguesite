@@ -4,7 +4,7 @@
   </head>
   <body>
   	<header>
-  		Welcome to the LeagueSite - docker is awesome
+  		Welcome to the LeagueSite - docker is <?PHP echo 'REALLY'; ?> awesome
   	</header>
   	<section id="nameInput">
   		<form method="post" action="index.php">
@@ -15,3 +15,8 @@
     <script async="async" src="script.js" type="text/javascript"></script>
   </body>
 </html>
+<?PHP
+
+phpinfo();
+
+?>
