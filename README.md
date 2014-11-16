@@ -8,6 +8,9 @@ How to develop on windows!
 Read: http://docs.docker.com/installation/windows/
 Install boot2docker for windows
 
+You'll want to follow the instructions here: http://www.incrediblemolk.com/sharing-a-windows-folder-with-the-boot2docker-vm/
+The most important steps being replacing the docker.iso and running the "VBoxManage" command
+
 In Git Shell:
 
 To start and connect to the Docker manager:
@@ -20,11 +23,6 @@ To start and connect to the Docker manager:
 To Remember the IP of the docker server:
 
     boot2docker ip
-
-You'll want to follow the instructions here: http://www.incrediblemolk.com/sharing-a-windows-folder-with-the-boot2docker-vm/
-The most important steps being replacing the docker.iso and running the "VBoxManage" command
-
-
 
 Once you're connected - you can use docker normally - to start the app:
 
