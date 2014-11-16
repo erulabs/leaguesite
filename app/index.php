@@ -4,7 +4,7 @@
   </head>
   <body>
   	<header>
-  		Welcome to the LeagueSite
+  		Welcome to the LeagueSite - docker is awesome
   	</header>
   	<section id="nameInput">
   		<form method="post" action="index.php">
